@@ -1,0 +1,43 @@
+.cnt {
+    /*width: 350px;
+    height: 155px;*/
+    background: rgb(228, 228, 228);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+
+
+    /*display: flex;
+    flex-direction: row;
+    justify-content: space-between;*/
+    box-sizing: border-box;
+    
+}
+
+.bottom_line {
+    border-radius: 0px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.text {
+    width: 100%;
+    height: 146px;
+    background: white;
+    padding: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: none;
+}
+
+input {
+    border: none;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    resize: none; /*remove the resize handle on the bottom right*/
+}
